@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatRoom</string>
+    <string name="CurrentThreads">Current Threads</string>
+    <string name="Home">Home</string>
+    <string name="Send">Send</string>
+    <string name="TypeMsg">Type Message to Send</string>
+</resources>

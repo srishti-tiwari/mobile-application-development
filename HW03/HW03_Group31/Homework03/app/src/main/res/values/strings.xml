@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HW 03</string>
+    <string name="buttonAddMovie">Add Movie</string>
+    <string name="buttonEdit">Edit</string>
+    <string name="buttonDeleteMovie">Delete Movie</string>
+    <string name="buttonShowListByYear">Show List by Year</string>
+    <string name="buttonShowListByRating">Show List by Rating</string>
+    <string name="textViewDescription">Description</string>
+    <string name="textViewName">Name:</string>
+    <string name="textViewGenre">Genre:</string>
+    <string name="textViewRating">Rating:</string>
+    <string name="textViewYear">Year:</string>
+    <string name="textViewImdb">IMDB:</string>
+    <string name="buttonAddMovieSave">Add Movie</string>
+    <string name="buttonSaveChanges">Save Changes</string>
+    <string name="textViewMoviesByYear">Movies By Year</string>
+    <string name="textViewMoviesByRating">Movies By Rating</string>
+    <string name="textViewTitle">Title :</string>
+
+    <string-array name="genre_array">
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

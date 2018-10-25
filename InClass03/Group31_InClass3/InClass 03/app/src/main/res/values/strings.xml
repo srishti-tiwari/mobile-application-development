@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InClass 03</string>
+    <string name="textViewDepartment">Department</string>
+    <string name="radioButtonCS">CS</string>
+    <string name="radioButtonSIS">SIS</string>
+    <string name="radioButtonBIO">BIO</string>
+    <string name="radioButtonOther">Other</string>
+    <string name="buttonSave">Save</string>
+    <string name="textViewName">Name :</string>
+    <string name="textLabelStudentId">StudentId :</string>
+    <string name="textLabelDepartment">Department :</string>
+    <string name="buttonEdit">Edit</string>
+</resources>

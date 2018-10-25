@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework04</string>
+    <string name="hintSearchKeyword">Search Keyword</string>
+    <string name="buttonGo">Go</string>
+    <string name="loading">Loading Dictionary</string>
+    <string name="loadingPhoto">Loading Photo</string>
+</resources>

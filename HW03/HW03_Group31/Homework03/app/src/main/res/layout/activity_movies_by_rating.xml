@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviesByRatingActivity">
+
+    <TextView
+        android:id="@+id/textViewMoviesByYear"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewMoviesByRating"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMBYTitle"
+        android:layout_width="64dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textViewTitle"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMoviesByYear" />
+
+    <TextView
+        android:id="@+id/textViewMBYTitleValue"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@+id/textViewMBYTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMoviesByYear" />
+
+    <TextView
+        android:id="@+id/textViewMBYDescription"
+        android:layout_width="102dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewDescription"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYTitle" />
+
+    <EditText
+        android:id="@+id/editTextMBYDescriptionValue"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="314dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYDescription" />
+
+    <TextView
+        android:id="@+id/textViewMBYGenre"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/textViewGenre"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMBYDescriptionValue" />
+
+    <TextView
+        android:id="@+id/textViewMBYGenreValue"
+        android:layout_width="173dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toEndOf="@+id/textViewMBYGenre"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMBYDescriptionValue" />
+
+    <TextView
+        android:id="@+id/textViewMBYRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewRating"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYGenre" />
+
+    <TextView
+        android:id="@+id/textViewMBYRatingValue"
+        android:layout_width="171dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toEndOf="@+id/textViewMBYRating"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYGenre" />
+
+    <TextView
+        android:id="@+id/textViewMBYYear"
+        android:layout_width="58dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewYear"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYRating" />
+
+    <TextView
+        android:id="@+id/textViewMBYYearValue"
+        android:layout_width="178dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewMBYYear"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYRating" />
+
+    <TextView
+        android:id="@+id/textViewMBYImdb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/textViewImdb"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYYear" />
+
+    <TextView
+        android:id="@+id/textViewMBYImdbValue"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYImdb" />
+
+    <ImageView
+        android:id="@+id/imageViewMBYFirst"
+        android:layout_width="57dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYImdbValue"
+        app:srcCompat="@drawable/first" />
+
+    <ImageView
+        android:id="@+id/imageViewMBYPrev"
+        android:layout_width="41dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMBYFirst"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYImdbValue"
+        app:srcCompat="@drawable/previous" />
+
+    <Button
+        android:id="@+id/buttonMBYFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMBYPrev"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYImdbValue" />
+
+    <ImageView
+        android:id="@+id/imageViewMBYNext"
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMBYFinish"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYImdbValue"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/imageViewMBYLast"
+        android:layout_width="38dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/imageViewMBYNext"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMBYImdbValue"
+        app:srcCompat="@drawable/last" />
+</android.support.constraint.ConstraintLayout>
+
+
